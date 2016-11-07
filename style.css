@@ -1,0 +1,35 @@
+  ul {
+    margin: 100px auto;
+    padding: 5px;
+    height: 44px;
+    background: purple;
+  }
+  li {
+    display: table-cell;
+    text-align: center;
+    width: 1%;
+    position: relative;
+
+  }
+li a {
+    color: #fff;
+    background: #333;
+    border: 1px solid #333;
+    padding: 10px 0 10px 0;
+    width: 100%;
+    display: inline-block;
+    border-left: 2px solid #800080;
+   -webkit-transition: all 0.3s ;           
+    -moz-transition: all 0.3s ;             
+    -o-transition: all 0.3s ;   
+    -ms-transition: all 0.3s ;          
+    transition: all 0.3s ;
+}
+li a:hover {background: #292828;}
+ul li:first-child a {
+  border: none;
+}
+li:after {
+  content: "";
+  position: absolute;
+}
